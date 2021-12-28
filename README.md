@@ -30,7 +30,9 @@
   npm install
   
   ## Usage
-  node.js
+  node index.js
+
+  link to video on use [here](https://watch.screencastify.com/v/V56GbzQ9a6EhEtv0D4Bt).
   
   ## License
   
@@ -41,7 +43,7 @@
   No need to contribute.
   
   ## Tests
-  run test
+  npm run test
   
   ## Questions
   

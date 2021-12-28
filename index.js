@@ -1,12 +1,15 @@
+// functions imported from lib
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const questions = require("./lib/questions");
 const render = require("./lib/htmlRenderer");
+// modules required
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
+// where completed document is sent and saved as
 const OUTPUT_DIR = path.resolve(__dirname, "dist");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
